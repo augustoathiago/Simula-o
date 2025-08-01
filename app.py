@@ -59,7 +59,7 @@ else:
     ax2.vlines(0, 0, ax2.get_ylim()[1], colors='gray', linestyles='dotted')
     ax2.set_ylabel('Altura (m)')
     ax2.set_title('Visualização Física do Equilíbrio')
-    ax2.legend(loc='upper right')
+    ax2.legend(loc='center left')
     ax2.grid(True, axis='y')
 
     st.pyplot(fig2)
