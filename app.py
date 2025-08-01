@@ -6,7 +6,7 @@ from scipy.optimize import fsolve
 st.title("Simulação de Equilíbrio Eletrostático + Gravidade")
 
 # Entradas do usuário
-Q = st.number_input("Carga fixa Q (Coulombs)", value=5e-6, format="%.2e")
+Q = st.number_input("Carga fixa Q (Coulombs)", value=-5e-6, format="%.2e")
 q = st.number_input("Carga móvel q (Coulombs)", value=-2e-6, format="%.2e")
 m = st.number_input("Massa da carga móvel m (kg)", value=0.01)
 g = st.number_input("Gravidade g (m/s²)", value=9.81)
